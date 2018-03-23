@@ -1,13 +1,3 @@
-# TIO_CH18_2.py
-# Copyright Warren & Carter Sande, 2013
-# Released under MIT license   http://www.opensource.org/licenses/mit-license.php
-# Version $version  ----------------------------
-
-# Answer to Try It Out Question 2 in Chapter 18
-
-# PyPong code with some randomness added to the ball's
-#   speed and angle
-
 import pygame, sys
 import random
 

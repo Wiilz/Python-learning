@@ -1,14 +1,3 @@
-# TIO_18-1.py
-# Copyright Warren & Carter Sande, 2013
-# Released under MIT license   http://www.opensource.org/licenses/mit-license.php
-# Version $version  ----------------------------
-
-# Answer to "Try It Out" Question 1 in Chapter 18.
-# Final PyPong code, with added feature of fixing 
-#  the behaviour when the ball hits the "side" of the paddle 
-#  instead of the top.
-
-
 import pygame, sys   
 
 class MyBallClass(pygame.sprite.Sprite):                                  
