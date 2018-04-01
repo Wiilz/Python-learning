@@ -113,9 +113,24 @@
      <x>0</x>
      <y>0</y>
      <width>673</width>
-     <height>21</height>
+     <height>23</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExit_2"/>
+   </widget>
+   <widget class="QMenu" name="menuConvert">
+    <property name="title">
+     <string>Convert</string>
+    </property>
+    <addaction name="actionC_to_F"/>
+    <addaction name="actionF_to_C"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuConvert"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionExit">
@@ -131,6 +146,21 @@
   <action name="action_FtoC">
    <property name="text">
     <string>&amp;F to C</string>
+   </property>
+  </action>
+  <action name="actionExit_2">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionC_to_F">
+   <property name="text">
+    <string>C to F</string>
+   </property>
+  </action>
+  <action name="actionF_to_C">
+   <property name="text">
+    <string>F to C</string>
    </property>
   </action>
  </widget>
