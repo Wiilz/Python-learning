@@ -1,0 +1,11 @@
+name = raw_input("What's your name:")
+age = raw_input("What's your age?")
+color = raw_input("What's your favorite color?")
+food = raw_input("What's your favorite food?")
+
+inf = open("information.txt",'w')
+inf.write(name + "\n")
+inf.write(age + "\n")
+inf.write(color + "\n")
+inf.write(food + "\n")
+inf.close()
