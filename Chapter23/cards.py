@@ -27,7 +27,7 @@ class Card:
         elif self.suit_id == 2:
             self.suit = "Hearts"
         elif self.suit_id == 3:
-            self.suit_id = "Spades"
+            self.suit = "Spades"
         elif self.suit_id == 4:
             self.suit = "Clubs"
         else:
